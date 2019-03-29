@@ -1,0 +1,5 @@
+0000001 2019-03-29 15:45:47.238628662 00000000 A session.cpp:178 Info  Starting session
+0000002 2019-03-29 15:45:47.238680482 00000000 A connection.cpp:350 Info  Trying to connect to: 8.44.203.78:1459 (1) not-secured
+0000003 2019-03-29 15:45:47.464971593 00000000 A connection.cpp:358 Info  Connection successful
+0000004 2019-03-29 15:45:47.465300227 00000000 A session.cpp:185 Info  Session connected
+0000005 2019-03-29 15:45:47.699330943 00000000 B session.cpp:622 Info  Heartbeat interval is 30

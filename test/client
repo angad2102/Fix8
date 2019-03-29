@@ -1,0 +1,7 @@
+0000001 A 2019-03-27 10:49:49.579742882 Info  filepersist.cpp:131 seq:0 offset:10 size:10
+0000002 A 2019-03-27 10:49:49.579993925 Info  filepersist.cpp:142 Database ./run/client.DLD_TEX.TEX1_DLD indexed 1 records.
+0000003 A 2019-03-27 10:49:49.580243505 Info  session.cpp:170 
+fix8 version 1.4.0 Copyright (c) 2010-19, David L. Dight <fix@fix8.org>, All rights reserved. [http://www.fix8.org]
+0000004 A 2019-03-27 10:49:49.580579636 Info  ../include/fix8/connection.hpp:637 fd(8) ReceiveBufferSize old:1061296 requested:100663296 new:425984
+0000005 A 2019-03-27 10:49:49.580586561 Info  ../include/fix8/connection.hpp:648 fd(8) SendBufferSize old:2626560 requested:100663296 new:425984
+0000006 A 2019-03-27 10:49:51.751611200 Warn  ../include/fix8/connection.hpp:489 FIXWriter: AsyncSocket already stopped.

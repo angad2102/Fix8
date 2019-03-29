@@ -1,0 +1,67 @@
+../compiler/f8c --verbose --retain  --namespace TEX ../schema/FIX50SP2.xml --fixt ../schema/FIXT11.xml
+expanding FIX50SP2.xml 10894 => 31218 lines
+compiling FIX50SP2.xml
+1610 fields defined
+1593 repeating groups defined
+119 messages defined
+198 components defined
+127 repeating group catagories (167 variants, 1515 common, 78 unique) processed
+1562 of 1610 fields used in messages
+../compiler/f8c --second --verbose --noconst --prefix Perf --norealm --namespace TEX ../schema/FIX42PERF.xml
+compiling FIX42PERF.xml
+405 fields defined
+1 repeating groups defined
+11 messages defined
+1 repeating group catagories (1 variants, 0 common, 1 unique) processed
+111 of 405 fields used in messages
+make  all-am
+make[1]: Entering directory `/home/developer/Downloads/fix8-1.4.0/test'
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..    -I../include -g -O2 -std=c++11 -Wall -MT libhftest_la-Perf_types.lo -MD -MP -MF .deps/libhftest_la-Perf_types.Tpo -c -o libhftest_la-Perf_types.lo `test -f 'Perf_types.cpp' || echo './'`Perf_types.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -std=c++11 -Wall -MT libhftest_la-Perf_types.lo -MD -MP -MF .deps/libhftest_la-Perf_types.Tpo -c Perf_types.cpp  -fPIC -DPIC -o .libs/libhftest_la-Perf_types.o
+mv -f .deps/libhftest_la-Perf_types.Tpo .deps/libhftest_la-Perf_types.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..    -I../include -g -O2 -std=c++11 -Wall -MT libhftest_la-Perf_traits.lo -MD -MP -MF .deps/libhftest_la-Perf_traits.Tpo -c -o libhftest_la-Perf_traits.lo `test -f 'Perf_traits.cpp' || echo './'`Perf_traits.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -std=c++11 -Wall -MT libhftest_la-Perf_traits.lo -MD -MP -MF .deps/libhftest_la-Perf_traits.Tpo -c Perf_traits.cpp  -fPIC -DPIC -o .libs/libhftest_la-Perf_traits.o
+mv -f .deps/libhftest_la-Perf_traits.Tpo .deps/libhftest_la-Perf_traits.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..    -I../include -g -O2 -std=c++11 -Wall -MT libhftest_la-Perf_classes.lo -MD -MP -MF .deps/libhftest_la-Perf_classes.Tpo -c -o libhftest_la-Perf_classes.lo `test -f 'Perf_classes.cpp' || echo './'`Perf_classes.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -std=c++11 -Wall -MT libhftest_la-Perf_classes.lo -MD -MP -MF .deps/libhftest_la-Perf_classes.Tpo -c Perf_classes.cpp  -fPIC -DPIC -o .libs/libhftest_la-Perf_classes.o
+mv -f .deps/libhftest_la-Perf_classes.Tpo .deps/libhftest_la-Perf_classes.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../include -g -O2 -std=c++11 -Wall   -o libhftest.la -rpath /usr/local/lib libhftest_la-Perf_types.lo libhftest_la-Perf_traits.lo libhftest_la-Perf_classes.lo  
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbeginS.o  .libs/libhftest_la-Perf_types.o .libs/libhftest_la-Perf_traits.o .libs/libhftest_la-Perf_classes.o   -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtendS.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o  -O2   -Wl,-soname -Wl,libhftest.so.0 -o .libs/libhftest.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libhftest.so.0" && ln -s "libhftest.so.0.0.0" "libhftest.so.0")
+libtool: link: (cd ".libs" && rm -f "libhftest.so" && ln -s "libhftest.so.0.0.0" "libhftest.so")
+libtool: link: ( cd ".libs" && rm -f "libhftest.la" && ln -s "../libhftest.la" "libhftest.la" )
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..    -I../include -fno-var-tracking -fno-var-tracking-assignments -g -O2 -std=c++11 -Wall -MT libmyfix_la-Myfix_classes.lo -MD -MP -MF .deps/libmyfix_la-Myfix_classes.Tpo -c -o libmyfix_la-Myfix_classes.lo `test -f 'Myfix_classes.cpp' || echo './'`Myfix_classes.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../include -fno-var-tracking -fno-var-tracking-assignments -g -O2 -std=c++11 -Wall -MT libmyfix_la-Myfix_classes.lo -MD -MP -MF .deps/libmyfix_la-Myfix_classes.Tpo -c Myfix_classes.cpp  -fPIC -DPIC -o .libs/libmyfix_la-Myfix_classes.o
+mv -f .deps/libmyfix_la-Myfix_classes.Tpo .deps/libmyfix_la-Myfix_classes.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..    -I../include -fno-var-tracking -fno-var-tracking-assignments -g -O2 -std=c++11 -Wall -MT libmyfix_la-Myfix_types.lo -MD -MP -MF .deps/libmyfix_la-Myfix_types.Tpo -c -o libmyfix_la-Myfix_types.lo `test -f 'Myfix_types.cpp' || echo './'`Myfix_types.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../include -fno-var-tracking -fno-var-tracking-assignments -g -O2 -std=c++11 -Wall -MT libmyfix_la-Myfix_types.lo -MD -MP -MF .deps/libmyfix_la-Myfix_types.Tpo -c Myfix_types.cpp  -fPIC -DPIC -o .libs/libmyfix_la-Myfix_types.o
+mv -f .deps/libmyfix_la-Myfix_types.Tpo .deps/libmyfix_la-Myfix_types.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..    -I../include -fno-var-tracking -fno-var-tracking-assignments -g -O2 -std=c++11 -Wall -MT libmyfix_la-Myfix_traits.lo -MD -MP -MF .deps/libmyfix_la-Myfix_traits.Tpo -c -o libmyfix_la-Myfix_traits.lo `test -f 'Myfix_traits.cpp' || echo './'`Myfix_traits.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../include -fno-var-tracking -fno-var-tracking-assignments -g -O2 -std=c++11 -Wall -MT libmyfix_la-Myfix_traits.lo -MD -MP -MF .deps/libmyfix_la-Myfix_traits.Tpo -c Myfix_traits.cpp  -fPIC -DPIC -o .libs/libmyfix_la-Myfix_traits.o
+mv -f .deps/libmyfix_la-Myfix_traits.Tpo .deps/libmyfix_la-Myfix_traits.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../include -fno-var-tracking -fno-var-tracking-assignments -g -O2 -std=c++11 -Wall   -o libmyfix.la -rpath /usr/local/lib libmyfix_la-Myfix_classes.lo libmyfix_la-Myfix_types.lo libmyfix_la-Myfix_traits.lo  
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbeginS.o  .libs/libmyfix_la-Myfix_classes.o .libs/libmyfix_la-Myfix_types.o .libs/libmyfix_la-Myfix_traits.o   -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtendS.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o  -O2   -Wl,-soname -Wl,libmyfix.so.0 -o .libs/libmyfix.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libmyfix.so.0" && ln -s "libmyfix.so.0.0.0" "libmyfix.so.0")
+libtool: link: (cd ".libs" && rm -f "libmyfix.so" && ln -s "libmyfix.so.0.0.0" "libmyfix.so")
+libtool: link: ( cd ".libs" && rm -f "libmyfix.la" && ln -s "../libmyfix.la" "libmyfix.la" )
+g++ -DHAVE_CONFIG_H -I. -I..    -I../include -g -O2 -std=c++11 -Wall -MT hftest.o -MD -MP -MF .deps/hftest.Tpo -c -o hftest.o hftest.cpp
+mv -f .deps/hftest.Tpo .deps/hftest.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../include -g -O2 -std=c++11 -Wall -lfix8 -lpthread -lrt     -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime -rdynamic -lhftest -lz   -o hftest hftest.o  
+libtool: link: g++ -I../include -g -O2 -std=c++11 -Wall -rdynamic -o .libs/hftest hftest.o  /home/developer/Downloads/fix8-1.4.0/runtime/.libs/libfix8.so -lcrypt -lpthread -lrt -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime /home/developer/Downloads/fix8-1.4.0/test/.libs/libhftest.so -lz -Wl,-rpath -Wl,/usr/local/lib
+g++ -DHAVE_CONFIG_H -I. -I..    -I../include -g -O2 -std=c++11 -Wall -MT hfprint.o -MD -MP -MF .deps/hfprint.Tpo -c -o hfprint.o hfprint.cpp
+mv -f .deps/hfprint.Tpo .deps/hfprint.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../include -g -O2 -std=c++11 -Wall -lfix8 -lpthread -lrt     -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime -rdynamic -lhftest -lz   -o hfprint hfprint.o  
+libtool: link: g++ -I../include -g -O2 -std=c++11 -Wall -rdynamic -o .libs/hfprint hfprint.o  /home/developer/Downloads/fix8-1.4.0/runtime/.libs/libfix8.so -lcrypt -lpthread -lrt -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime /home/developer/Downloads/fix8-1.4.0/test/.libs/libhftest.so -lz -Wl,-rpath -Wl,/usr/local/lib
+g++ -DHAVE_CONFIG_H -I. -I..    -I../include -g -O2 -std=c++11 -Wall -MT myfix.o -MD -MP -MF .deps/myfix.Tpo -c -o myfix.o myfix.cpp
+mv -f .deps/myfix.Tpo .deps/myfix.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../include -g -O2 -std=c++11 -Wall -lfix8 -lpthread -lrt     -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime -rdynamic -lmyfix -lz   -o f8test myfix.o  
+libtool: link: g++ -I../include -g -O2 -std=c++11 -Wall -rdynamic -o .libs/f8test myfix.o  /home/developer/Downloads/fix8-1.4.0/runtime/.libs/libfix8.so -lcrypt -lpthread -lrt -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime /home/developer/Downloads/fix8-1.4.0/test/.libs/libmyfix.so -lz -Wl,-rpath -Wl,/usr/local/lib
+g++ -DHAVE_CONFIG_H -I. -I..    -I../include -g -O2 -std=c++11 -Wall -MT myprint.o -MD -MP -MF .deps/myprint.Tpo -c -o myprint.o myprint.cpp
+mv -f .deps/myprint.Tpo .deps/myprint.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../include -g -O2 -std=c++11 -Wall -lfix8 -lpthread -lrt     -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime -rdynamic -lmyfix -lz   -o f8print myprint.o  
+libtool: link: g++ -I../include -g -O2 -std=c++11 -Wall -rdynamic -o .libs/f8print myprint.o  /home/developer/Downloads/fix8-1.4.0/runtime/.libs/libfix8.so -lcrypt -lpthread -lrt -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime /home/developer/Downloads/fix8-1.4.0/test/.libs/libmyfix.so -lz -Wl,-rpath -Wl,/usr/local/lib
+g++ -DHAVE_CONFIG_H -I. -I..    -I../include -g -O2 -std=c++11 -Wall -MT harness.o -MD -MP -MF .deps/harness.Tpo -c -o harness.o harness.cpp
+mv -f .deps/harness.Tpo .deps/harness.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../include -g -O2 -std=c++11 -Wall -lfix8 -lpthread -lrt     -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime -rdynamic -lmyfix -lz   -o harness harness.o  
+libtool: link: g++ -I../include -g -O2 -std=c++11 -Wall -rdynamic -o .libs/harness harness.o  /home/developer/Downloads/fix8-1.4.0/runtime/.libs/libfix8.so -lcrypt -lpthread -lrt -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -L../runtime /home/developer/Downloads/fix8-1.4.0/test/.libs/libmyfix.so -lz -Wl,-rpath -Wl,/usr/local/lib
+make[1]: Leaving directory `/home/developer/Downloads/fix8-1.4.0/test'

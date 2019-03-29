@@ -1,0 +1,6 @@
+[00000001927][0000001][A][2019-03-27 10:49:49.582345229][Info ][Connection from 127.0.0.1:33548]
+[00000001927][0000002][A][2019-03-27 10:49:49.582351653][Info ][Last sent: 10, last received: 10]
+[00000001927][0000003][A][2019-03-27 10:49:49.582461042][Info ][Client setting heartbeat interval to 10]
+[00000001927][0000004][A][2019-03-27 10:49:49.582463342][Info ][Heartbeat interval is 10]
+[00000004097][0000005][A][2019-03-27 10:49:51.751983008][Error][Peer reset connection: sockRead: connection gone]
+[00000004097][0000006][A][2019-03-27 10:49:51.752010405][Info ][FIXReader: 1 messages processed, 0 dropped, 1 invalid]

@@ -1,0 +1,8 @@
+0000001 2019-03-27 10:49:49.580253024 00000000 A session.cpp:178 Info  Starting session
+0000002 2019-03-27 10:49:49.580283064 00000000 A connection.cpp:350 Info  Trying to connect to: 127.0.0.1:11001 (1) not-secured
+0000003 2019-03-27 10:49:49.580593095 00000000 A connection.cpp:358 Info  Connection successful
+0000004 2019-03-27 10:49:49.580752733 00000000 A session.cpp:185 Info  Session connected
+0000005 2019-03-27 10:49:49.580870177 00000000 A session.cpp:1132 Info  Last sent: 10, last received: 10
+0000006 2019-03-27 10:49:49.582803424 00000000 B session.cpp:622 Info  Heartbeat interval is 10
+0000007 2019-03-27 10:49:51.751916286 00000002 B connection.cpp:140 Error Peer reset connection: sockRead: connection gone
+0000008 2019-03-27 10:49:51.751929549 00000002 B connection.cpp:148 Info  FIXReader: 1 messages processed, 0 dropped, 1 invalid
